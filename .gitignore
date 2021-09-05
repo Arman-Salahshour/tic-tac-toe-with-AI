@@ -1,0 +1,13 @@
+#Vs code stuff 
+.vscode/
+
+#node js stuff
+node_modules/
+
+#packages
+package-lock.json
+package.json
+
+
+#Zip file
+tic-tac-toe.rar

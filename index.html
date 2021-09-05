@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link rel="stylesheet" href="css/icon-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Dooz | A competition with AI</title>
+  </head>
+  <body>
+    <section class="section-board">
+      <div class="board player-1--active">
+        <div class="board__round">Player 1</div>
+        <div class="board__main">
+          <ul class="board__main--list">
+            <li class="board__main--item">
+              <div class="player--sign player-1--sign" id="num-0"></div>
+            </li>
+            <li class="board__main--item">
+              <div class="player--sign player-2--sign" id="num-1"></div>
+            </li>
+            <li class="board__main--item">
+              <div class="player--sign player-1--sign" id="num-2"></div>
+            </li>
+          </ul>
+          <ul class="board__main--list">
+            <li class="board__main--item">
+              <div class="player--sign player-2--sign" id="num-3"></div>
+            </li>
+            <li class="board__main--item">
+              <div class="player--sign player-1--sign" id="num-4"></div>
+            </li>
+            <li class="board__main--item">
+              <div class="player--sign player-2--sign" id="num-5"></div>
+            </li>
+          </ul>
+          <ul class="board__main--list">
+            <li class="board__main--item">
+              <div class="player--sign player-1--sign" id="num-6"></div>
+            </li>
+            <li class="board__main--item">
+              <div class="player--sign player-2--sign" id="num-7"></div>
+            </li>
+            <li class="board__main--item">
+              <div class="player--sign player-1--sign" id="num-8"></div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="player__score">
+          <div class="u-margin-top-small player__box player-1__box">
+            <div class="current">
+              <p class="current-label" id="label-2">Player1</p>
+              <p class="current-score" id="current--1">0</p>
+            </div>
+          </div>
+          <div class="btn__collection" style="display: inline-block">
+            <button
+              class="btn btn--white btn__reset"
+              style="display: block; width: 100%"
+            >
+              🔄 reset
+            </button>
+
+            <button
+              class="btn btn--white btn__next"
+              style="display: block; width: 100%"
+            >
+              ✅ next
+            </button>
+          </div>
+
+          <div class="u-margin-top-small player__box player-2__box">
+            <div class="current">
+              <p class="current-label" id="label-2">Player2</p>
+              <p class="current-score" id="current--2">0</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="engine.js"></script>
+  </body>
+</html>
+
+<!-- <section class="grid_test">
+      <div class="row">
+        <div class="col-1-of-2">col-1-of-2</div>
+        <div class="col-1-of-2">col-1-of-2</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">col-1-of-3</div>
+        <div class="col-1-of-3">col-1-of-3</div>
+        <div class="col-1-of-3">col-1-of-3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">col-1-of-3</div>
+        <div class="col-2-of-3">col-2-of-3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">col-1-of-4</div>
+        <div class="col-1-of-4">col-1-of-4</div>
+        <div class="col-1-of-4">col-1-of-4</div>
+        <div class="col-1-of-4">col-1-of-4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">col-1-of-4</div>
+        <div class="col-1-of-4">col-1-of-4</div>
+        <div class="col-2-of-4">col-2-of-4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">col-1-of-4</div>
+        <div class="col-3-of-4">col-3-of-4</div>
+      </div>
+    </section> -->
